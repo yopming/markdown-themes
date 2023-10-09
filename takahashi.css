@@ -1,0 +1,117 @@
+/*!
+ * Marp takahashi theme
+ *
+ * @theme takahashi
+ * @author Percy(scvoet)
+ *
+ * @auto-scaling true
+ * @size 4:3 920px 690px
+ */
+@import-theme "default";
+
+@font-face {
+    font-family: "SourceHanSansCN";
+    src: url(./fonts/SourceHanSansCN-Regular.eot);
+    src: local(" "), url(./fonts/SourceHanSansCN-Regular.otf) format("opentype"), url(./fonts/SourceHanSansCN-Regular.woff) format("woff");
+}
+
+section {
+    padding: 1vh;
+    font-family: "SourceHanSansCN";
+    font-size: 10vh !important;
+    text-align: center;
+}
+
+blockquote {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: #000;
+    background-color: #000;
+}
+
+blockquote h1,
+blockquote h2,
+blockquote h3,
+blockquote h4,
+blockquote h5,
+blockquote h6 {
+    color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 46vh;
+    line-height: 46vh !important;
+}
+
+h2 {
+    font-size: 36vh;
+    line-height: 38vh !important;
+}
+
+h3 {
+    font-size: 28vh;
+    line-height: 30vh !important;
+}
+
+h4 {
+    font-size: 20vh;
+    line-height: 22vh;
+}
+
+h5 {
+    font-size: 16vh;
+    line-height: 18vh;
+}
+
+h6 {
+    font-size: 13vh;
+    line-height: 15vh;
+}
+
+ul,
+ol {
+    padding: 0 5vh;
+    margin: 0;
+    text-align: left;
+    font-size: 20vh;
+    line-height: 28vh;
+}
+
+ol {
+    font-size: 11vh;
+    line-height: 16vh;
+}
+
+li {
+    list-style: none;
+}
+
+strong {
+    color: #A20004 !important;
+}
+
+em {
+    font-style: normal;
+    color: #777;
+}
+
+a {
+    color: #0000DD;
+    text-decoration: underline;
+}
+
+img {
+    width: 100%;
+}

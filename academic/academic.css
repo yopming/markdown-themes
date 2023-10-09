@@ -1,11 +1,13 @@
 /* @theme academic */
+/* Author: kaisugi https://github.com/kaisugi/ */
+/* MIT license https://github.com/kaisugi/marp-theme-academic/blob/main/LICENSE */
 
 @import 'gaia';
 
 :root {
     --color-background: #fff;
-    --color-foreground: #971f83;
-    --color-highlight: #3b68af;
+    --color-foreground: #333;
+    --color-highlight: #800000;
 }
 
 section {
@@ -27,48 +29,48 @@ ul ul {
 }
 
 section.lead h1 {
-    color: var(--color-highlight);
+    color: #800000;
     text-align: left;
 }
 
 section.lead h1 strong {
-    -webkit-text-stroke: 1px var(--color-highlight);
+    -webkit-text-stroke: 1px #800000;
 }
 
 section.lead h2 {
-    color: var(--color-highlight);
+    color: #800000;
     text-align: left;
 }
 
 section.lead h2 strong {
-    -webkit-text-stroke: 1px var(--color-highlight);
+    -webkit-text-stroke: 1px #800000;
 }
 
 section.lead h3 {
-    color: var(--color-highlight);
+    color: #800000;
     text-align: left;
 }
 
 section.lead h3 strong {
-    -webkit-text-stroke: 1px var(--color-highlight);
+    -webkit-text-stroke: 1px #800000;
 }
 
 section.lead h4 {
-    color: var(--color-highlight);
+    color: #800000;
     text-align: left;
 }
 
 section.lead h4 strong {
-    -webkit-text-stroke: 1px var(--color-highlight);
+    -webkit-text-stroke: 1px #800000;
 }
 
 section.lead h5 {
-    color: var(--color-highlight);
+    color: #800000;
     text-align: left;
 }
 
 section.lead h5 strong {
-    -webkit-text-stroke: 1px var(--color-highlight);
+    -webkit-text-stroke: 1px #800000;
 }
 
 section.lead p {
@@ -76,7 +78,7 @@ section.lead p {
 }
 
 header {
-    background-color: var(--color-highlight);
+    background-color: #800000;
     color: #fff;
     font-size: 1em;
     font-weight: 700;

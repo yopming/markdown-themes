@@ -4,8 +4,8 @@
 @import 'default';
 
 :root {
-    --font-family-main: 'Linux Libertine', serif;
-    --font-family-title: 'Sansita', sans-serif;
+    --font-family-main: 'Iosevka Term', serif;
+    --font-family-title: 'Lato', sans-serif;
     --font-family-footer: 'Roboto', sans-serif;
     --font-family-code: 'Iosevka', monospace;
     --font-size-1: 55px;
@@ -22,7 +22,7 @@
     --color-few: #53a7a0;
     --color-quote: rgba(254, 176, 98, 0.1);
     --color-main: #211112;
-    --color-coverbg: #a7535a;
+    --color-coverbg: #73000a;
     --color-much: #864248;
     --color-trans: #b9757b;
     --color-navbar-bg: #edddde;

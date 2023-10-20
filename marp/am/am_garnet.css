@@ -1,11 +1,11 @@
-/* @theme am_garnet */
+/* @theme am_garnet_1 */
 
 @charset "UTF-8";
 @import 'default';
 
 :root {
-    --font-family-main: 'Iosevka Term', serif;
-    --font-family-title: 'Lato', sans-serif;
+    --font-family-main: 'Linux Libertine', serif;
+    --font-family-title: 'Iosevka Term', sans-serif;
     --font-family-footer: 'Roboto', sans-serif;
     --font-family-code: 'Iosevka', monospace;
     --font-size-1: 55px;

@@ -852,6 +852,12 @@ section.cols-2 h3 {
     font-size: var(--font-size-2-3);
 }
 
+section.cols-2 .ldiv,
+section.cols-2 .rdiv {
+    display: flex;
+    align-items: center;
+}
+
 section.cols-2 .ldiv {
     grid-area: leftpanel;
     margin-top: -5%;

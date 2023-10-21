@@ -19,13 +19,13 @@
     --font-size-code: 22px;
     --color-title: rgb(255, 255, 255);
     --color-footer: #8c8c8c;
-    --color-navbar-font: rgb(108, 95, 91);
+    --color-navbar-font: #73000a;
     --color-few: #53a7a0;
     --color-quote: rgba(254, 176, 98, 0.1);
     --color-main: #211112;
     --color-coverbg: #73000a;
-    --color-much: #864248;
-    --color-trans: #b9757b;
+    --color-much: #73000a;
+    --color-trans: #73000a;
     --color-navbar-bg: #edddde;
     --color-code-bg: #f6eeef;
 }

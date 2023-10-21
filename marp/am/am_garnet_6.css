@@ -92,7 +92,6 @@ ul li::marker {
 blockquote {
     border-left: 8px solid var(--color-much);
     padding: 10px 25px;
-    border-radius: 8px;
     background-color: var(--color-quote);
     font-size: 0.9rem;
     font-family: var(--font-family-main);
@@ -138,7 +137,6 @@ section::after {
     content: attr(data-marpit-pagination) "\f101 " attr(data-marpit-pagination-total);
     letter-spacing: 3px;
     padding: 4px 10px;
-    border-radius: 5px;
     border: 1px solid var(--color-footer);
     color: var(--color-footer);
 }
@@ -172,7 +170,6 @@ footer::after {
 pre {
     text-align: left;
     border: 0.3px solid var(--color-few);
-    border-radius: 10px;
     padding: 28px;
     line-height: 115%;
     overflow: auto;
@@ -233,7 +230,6 @@ em {
 
 img {
     max-width: 95%;
-    border-radius: 8px;
     margin: auto;
 }
 
@@ -380,7 +376,6 @@ section.cover_b h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 20px;
 }
 
 section.cover_b h6 {
@@ -525,7 +520,6 @@ section.toc_a ul {
     padding: 30px;
     margin: 30px;
     position: relative;
-    border-radius: 0px 0px 20px 20px;
     border-top: 8px solid var(--color-navbar-font);
     background-color: white;
     box-shadow: 3px 3px 25px rgb(215, 224, 235);
@@ -548,7 +542,6 @@ section.toc_a ul li::before {
     align-items: center;
     justify-content: center;
     background-color: var(--color-much);
-    border-radius: 50%;
 }
 
 section.toc_a ul li:hover::before {
@@ -607,7 +600,6 @@ section.toc_b ul li::before {
     justify-content: center;
     font-family: var(--font-family-title);
     background-color: var(--color-much);
-    border-radius: 50%;
     color: white;
 }
 
@@ -646,7 +638,6 @@ section.toc_b img {
 section.fglass ul {
     padding: 20px 20px 20px 60px;
     margin-left: -25px;
-    border-radius: 0px 0px 20px 20px;
     border-top: 8px solid var(--color-navbar-font);
     background-color: white;
     box-shadow: 1px 1px 12px rgb(215, 224, 235);
@@ -692,7 +683,6 @@ section.cols2_ol_sq ul li::before {
     font-size: 20px;
     font-family: var(--font-family-title);
     background-color: var(--color-much);
-    /* border-radius: 50%; */
     color: white;
     margin-left: -8%;
 }
@@ -747,7 +737,6 @@ section.cols2_ol_ci ul li::before {
     font-size: 20px;
     font-family: var(--font-family-title);
     background-color: var(--color-much);
-    border-radius: 50%;
     color: white;
     margin-left: -8%;
 }
@@ -843,7 +832,6 @@ section.cols2_ul_ci ul li:before {
     background-color: var(--color-much);
     height: 10px;
     width: 10px;
-    border-radius: 50%;
 }
 
 
@@ -1281,7 +1269,6 @@ section.lastpage div>ul>li>ul>li {
 .fa-house {
     border: 2px solid;
     padding: 10px;
-    border-radius: 50%;
     font-size: 1.2rem;
 }
 
@@ -1321,7 +1308,6 @@ section.navbar header>em>strong {
 
 section.navbar header>strong {
     border: 1px solid white;
-    border-radius: 12px;
     padding: 0px 15px 5px 15px;
     background-color: white;
 }
@@ -1493,7 +1479,6 @@ section.fixedtitleB>h5 {
     padding: 10px;
     background-color: var(--color-much);
     color: white;
-    border-radius: 8px;
     font-size: 1.25rem;
 }
 

@@ -1,0 +1,357 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/** CSS Reset finished **/
+
+/** Global Attributes **/
+html,
+body {
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 14px;
+    color: black;
+    padding: 0 10px;
+    line-height: 1.2;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    word-break: break-word;
+    word-wrap: break-word;
+    text-align: left;
+    font-family: 'Linux Libertine', serif;
+}
+
+body {
+    padding-bottom: 20px;
+}
+
+/** Paragraph **/
+p,
+blockquote p {
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin: 0;
+    line-height: 1.2rem;
+    color: black;
+}
+
+/** Strong **/
+strong {
+    font-weight: bold;
+}
+
+/** Itatic **/
+em,
+i {
+    font-style: italic;
+}
+
+/** Headings **/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 1em 0 .1em 0;
+    padding: 0px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Philosopher', 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+    border-bottom: 2px solid rgb(239, 112, 96);
+    font-weight: bold;
+    color: #ef7056;
+}
+
+h3 {
+    font-size: 1.3rem;
+    border-left: 4px solid #aaa;
+    padding-left: 8px;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1.1rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+/** Listing **/
+ul,
+ol {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-left: 25px;
+    color: black;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+ul ul {
+    list-style-type: square;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+/** Blockquote **/
+blockquote {
+    display: block;
+    overflow: auto;
+    border-left: 3px solid rgb(239, 112, 96);
+    color: #6a737d;
+    padding: 0px 10px 10px 10px;
+    margin: 20px;
+    background: #fff9f9;
+}
+
+/** Link **/
+a {
+    text-decoration: none;
+    word-wrap: break-word;
+    font-weight: bold;
+    border-bottom: 1px solid #1e6bb8;
+    color: rgb(239, 112, 96);
+    border-bottom: 1px solid rgb(239, 112, 96);
+}
+
+/** Inline Code **/
+p code,
+li code {
+    padding: 0px 2px;
+    border-radius: 4px;
+    margin: 0 2px;
+    color: rgb(239, 112, 96);
+    background-color: rgba(27, 31, 35, .05);
+}
+
+/** Inline Code and Code **/
+code,
+pre,
+pre code {
+    font-family: 'M PLUS 1 Code', 'Iosevka', monospace;
+}
+
+/** Images **/
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+span img {
+    display: inline-block;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+figure {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+figure figcaption {
+    text-align: center;
+    color: #888;
+    margin-top: 10px;
+}
+
+figure figcaption:before {
+    content: "Figure: ";
+}
+
+/** Table **/
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+
+table {
+    font-size: 1rem;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+thead,
+tbody {
+    border: 0;
+}
+
+table tr:nth-child(2n) {
+    background-color: #F8F8F8;
+}
+
+table th,
+table td {
+    padding: 4px 8px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+table tr th {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}

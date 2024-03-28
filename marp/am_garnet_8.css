@@ -130,11 +130,10 @@ a::after {
 }
 
 section::after {
-    font-family: "FontAwesome";
     font-size: var(--font-size-page);
     margin-right: -10px;
     margin-bottom: -14px;
-    content: attr(data-marpit-pagination) "\f101 " attr(data-marpit-pagination-total);
+    content: attr(data-marpit-pagination) "/" attr(data-marpit-pagination-total);
     letter-spacing: 3px;
     padding: 4px 10px;
     border: 1px solid var(--color-footer);

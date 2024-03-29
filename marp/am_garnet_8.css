@@ -34,7 +34,6 @@ section {
     font-family: var(--font-family-main);
     font-size: var(--font-size-main);
     color: var(--color-main);
-    text-align: justify;
 }
 
 h1 {

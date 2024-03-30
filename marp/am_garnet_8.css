@@ -221,12 +221,9 @@ strong {
     color: var(--color-much);
 }
 
-em {
-    font-size: 0.9rem;
-    font-style: normal;
-}
-
+em,
 i {
+    font-size: 0.9rem;
     font-style: italic;
 }
 

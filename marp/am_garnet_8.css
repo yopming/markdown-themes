@@ -226,6 +226,10 @@ em {
     font-style: normal;
 }
 
+i {
+    font-style: italic;
+}
+
 img {
     max-width: 95%;
     margin: auto;

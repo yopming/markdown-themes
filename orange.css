@@ -278,6 +278,13 @@ li code {
 }
 
 /** Inline Code and Code **/
+pre {
+    background: #eee;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
 code,
 pre,
 pre code {

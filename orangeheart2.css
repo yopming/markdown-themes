@@ -14,7 +14,7 @@
 }
 
 /*段落*/
-#write p, 
+#write p,
 #write blockquote p {
   padding-top: 10px;
   padding-bottom: 0;
@@ -22,19 +22,20 @@
   line-height: 1.2rem;
   color: black;
 }
+
 #write div[mdtype=toc] {
   font-size: 1rem;
 }
 
 /** Strong **/
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 /** Itatic **/
 em,
 i {
-    font-style: italic;
+  font-style: italic;
 }
 
 /*标题*/
@@ -50,9 +51,11 @@ i {
   color: black;
   font-family: 'Philosopher', 'Roboto', sans-serif;
 }
+
 #write h1 {
   font-size: 1.6rem;
 }
+
 #write h2 {
   font-size: 1.4rem;
   border-bottom: 2px solid rgb(239, 112, 96);
@@ -65,12 +68,15 @@ i {
   border-left: 4px solid #aaa;
   padding-left: 8px;
 }
+
 #write h4 {
   font-size: 1.2rem;
 }
+
 #write h5 {
   font-size: 1.1rem;
 }
+
 #write h6 {
   font-size: 1rem;
 }
@@ -83,21 +89,30 @@ i {
   padding-left: 25px;
   color: black;
 }
+
 #write ul {
   list-style-type: disc;
 }
+
 #write ul ul {
   list-style-type: square;
 }
+
 #write ol {
   list-style-type: decimal;
 }
+
+#write li p {
+  padding-top: 0;
+}
+
 #write li section {
   margin-top: 5px;
   margin-bottom: 5px;
   line-height: 1.5rem;
   text-align: left;
-  color: rgb(1,1,1); /* 只要是纯黑色微信编辑器就会把color这个属性吞掉。。。*/
+  color: rgb(1, 1, 1);
+  /* 只要是纯黑色微信编辑器就会把color这个属性吞掉。。。*/
   font-weight: 500;
 }
 
@@ -157,17 +172,21 @@ i {
   display: table;
   text-align: left;
 }
+
 #write tbody {
   border: 0;
 }
+
 #write table tr {
   border: 0;
   border-top: 1px solid #ccc;
   background-color: white;
 }
+
 #write table tr:nth-child(2n) {
   background-color: #F8F8F8;
 }
+
 #write table tr th,
 #write table tr td {
   font-size: 1rem;
@@ -175,6 +194,7 @@ i {
   padding: 5px 10px;
   text-align: left;
 }
+
 #write table tr th {
   font-weight: bold;
   background-color: #f0f0f0;
@@ -182,29 +202,33 @@ i {
 
 /* 行内代码 */
 #write span code, #write li code {
- color: rgb(239, 112, 96);
+  color: rgb(239, 112, 96);
 }
 
 /* 脚注上标 */
 #write .md-footnote {
- font-weight: bold;
- color: rgb(239, 112, 96);
+  font-weight: bold;
+  color: rgb(239, 112, 96);
 }
-#write .md-footnote > .md-text:before {
- content: '['
+
+#write .md-footnote>.md-text:before {
+  content: '['
 }
-#write .md-footnote > .md-text:after {
- content: ']'
+
+#write .md-footnote>.md-text:after {
+  content: ']'
 }
 
 /* 脚注 */
 #write .md-def-name {
   padding-right: 1.8ch;
 }
+
 #write .md-def-name:before {
   content: '[';
   color: #000;
 }
+
 #write .md-def-name:after {
   color: #000;
 }
@@ -223,11 +247,10 @@ i {
 }
 
 /* CodeMirror 相关内容 */
-
-
 .CodeMirror-wrap .CodeMirror-scroll {
   overflow-x: auto;
 }
+
 .cm-s-inner.CodeMirror {
   padding: .5rem;
   background-color: #292d3e;
@@ -235,70 +258,91 @@ i {
   font-family: Consolas;
   border-radius: 4px;
 }
+
 .cm-s-inner .cm-keyword {
   color: #c792ea !important;
 }
+
 .cm-s-inner .cm-operator {
   color: #89ddff !important;
 }
+
 .cm-s-inner .cm-variable-2 {
   color: #eeffff !important;
 }
+
 .cm-s-inner .cm-variable-3,
 .cm-s-inner .cm-type {
   color: #f07178 !important;
 }
+
 .cm-s-inner .cm-builtin {
   color: #ffcb6b !important;
 }
+
 .cm-s-inner .cm-atom {
   color: #f78c6c !important;
 }
+
 .cm-s-inner .cm-number {
   color: #ff5370 !important;
 }
+
 .cm-s-inner .cm-def {
   color: #82aaff !important;
 }
+
 .cm-s-inner .cm-string {
   color: #c3e88d !important;
 }
+
 .cm-s-inner .cm-string-2 {
   color: #f07178 !important;
 }
+
 .cm-s-inner .cm-comment {
   color: #676e95 !important;
 }
+
 .cm-s-inner .cm-variable {
   color: #f07178 !important;
 }
+
 .cm-s-inner .cm-tag {
   color: #ff5370 !important;
 }
+
 .cm-s-inner .cm-meta {
   color: #ffcb6b !important;
 }
+
 .cm-s-inner .cm-attribute {
   color: #c792ea !important;
 }
+
 .cm-s-inner .cm-property {
   color: #c792ea !important;
 }
+
 .cm-s-inner .cm-qualifier {
   color: #decb6b !important;
 }
+
 .cm-s-inner .cm-variable-3,
 .cm-s-inner .cm-type {
   color: #decb6b !important;
 }
+
 .cm-s-inner .cm-error {
   color: rgba(255, 255, 255, 1) !important;
   background-color: #ff5370 !important;
 }
+
 .cm-s-inner .CodeMirror-matchingbracket {
   text-decoration: underline;
   color: white !important;
 }
+
 .CodeMirror div.CodeMirror-cursor {
   border-left: 1px solid rgb(239, 112, 96);
   z-index: 3;
@@ -318,17 +362,25 @@ i {
 }
 
 .cm-s-inner .CodeMirror-line::-moz-selection,
-.cm-s-inner .CodeMirror-line > span::-moz-selection,
-.cm-s-inner .CodeMirror-line > span > span::-moz-selection {
+.cm-s-inner .CodeMirror-line>span::-moz-selection,
+.cm-s-inner .CodeMirror-line>span>span::-moz-selection {
   background-color: rgba(167, 178, 189, 0.2);
 }
 
 .cm-s-inner .CodeMirror-line::selection,
-.cm-s-inner .CodeMirror-line > span::selection,
-.cm-s-inner .CodeMirror-line > span > span::selection {
+.cm-s-inner .CodeMirror-line>span::selection,
+.cm-s-inner .CodeMirror-line>span>span::selection {
   background-color: rgba(167, 178, 189, 0.2);
 }
 
-.CodeMirror[lang="pppp"] .CodeMirror-gutters {display: none !important;}
-.CodeMirror[lang="pppp"] .CodeMirror-sizer {margin-left: 0 !important;}
-.CodeMirror[lang="pppp"] .CodeMirror-gutter-wrapper {display: none !important;}
+.CodeMirror[lang="pppp"] .CodeMirror-gutters {
+  display: none !important;
+}
+
+.CodeMirror[lang="pppp"] .CodeMirror-sizer {
+  margin-left: 0 !important;
+}
+
+.CodeMirror[lang="pppp"] .CodeMirror-gutter-wrapper {
+  display: none !important;
+}
